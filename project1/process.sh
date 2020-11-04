@@ -93,5 +93,11 @@ samtools mpileup -f GCF_000005845.2_ASM584v2_genomic.fna alignment_sorted.bam > 
 echo Call actual variants
 java -jar ~/software/VarScan.v2.3.9.jar mpileup2snp my.mpileup --min-var-freq 0.5 --variants --output-vcf 1 > VarScan_results.vcf
 
+# Reference genome should be first registered in snpEff.config and build with
+# java -jar snpEff.jar build -gff3 ecoli
+# echo
+# echo Annotate variants
+# java -jar snpEff.jar eff ecoli VarScan_results.vcf > ann.txt
+
 echo
 echo End on $(date --iso-8601='seconds')
