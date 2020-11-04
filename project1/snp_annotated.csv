@@ -1,0 +1,6 @@
+CHROM,POS,REF,ALT,Annotation,Gene_Name,Gene_ID,HGVS.c,HGVS.p,Name,Uniprot
+NC_000913.3,93043,C,G,missense_variant,ftsI,gene-b0084,c.1631C>G,p.Ala544Gly,"Peptidoglycan D,D-transpeptidase FtsI",https://www.uniprot.org/uniprot/P0AD68
+NC_000913.3,482698,T,A,missense_variant,acrB,gene-b0462,c.1706A>T,p.Gln569Leu,Multidrug efflux pump subunit AcrB,https://www.uniprot.org/uniprot/P31224
+NC_000913.3,852762,A,G,upstream_gene_variant,glnH,gene-b0811,c.-4758T>C,,,
+NC_000913.3,3535147,A,C,missense_variant,envZ,gene-b3404,c.722T>G,p.Val241Gly,Sensor histidine kinase EnvZ,https://www.uniprot.org/uniprot/P0AEJ4
+NC_000913.3,4390754,G,T,synonymous_variant,rsgA,gene-b4161,c.756C>A,p.Ala252Ala,Small ribosomal subunit biogenesis GTPase RsgA,https://www.uniprot.org/uniprot/P39286
