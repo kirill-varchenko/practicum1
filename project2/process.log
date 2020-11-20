@@ -1,0 +1,172 @@
+Start on 2020-11-18T21:01:00+03:00
+[bwa_index] Pack FASTA... 0.00 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.00 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.00 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index sequence.fasta
+[main] Real time: 0.034 sec; CPU: 0.004 sec
+SRR1705851
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 68388 sequences (10000129 bp)...
+[M::process] read 67628 sequences (10000233 bp)...
+[M::mem_process_seqs] Processed 68388 reads in 2.519 CPU sec, 2.390 real sec
+[M::process] read 67698 sequences (10000046 bp)...
+[M::mem_process_seqs] Processed 67628 reads in 1.989 CPU sec, 1.785 real sec
+[M::process] read 67652 sequences (10000169 bp)...
+[M::mem_process_seqs] Processed 67698 reads in 3.133 CPU sec, 2.901 real sec
+[M::process] read 68072 sequences (10000295 bp)...
+[M::mem_process_seqs] Processed 67652 reads in 3.037 CPU sec, 2.843 real sec
+[M::process] read 18827 sequences (2716992 bp)...
+[M::mem_process_seqs] Processed 68072 reads in 2.251 CPU sec, 2.140 real sec
+[M::mem_process_seqs] Processed 18827 reads in 1.237 CPU sec, 1.170 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem sequence.fasta SRR1705851.fastq.gz
+[main] Real time: 13.522 sec; CPU: 14.329 sec
+[mpileup] 1 samples in 1 input files
+[mpileup] Max depth set to maximum value (2147483647)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.95
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705851.mpileup
+1665 bases in pileup file
+5 variant positions (5 SNP, 0 indel)
+0 were failed by the strand-filter
+5 variant positions reported (5 SNP, 0 indel)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.001
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705851.mpileup
+1665 bases in pileup file
+23 variant positions (21 SNP, 2 indel)
+0 were failed by the strand-filter
+21 variant positions reported (21 SNP, 0 indel)
+SRR1705858
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 67448 sequences (10000210 bp)...
+[M::process] read 67230 sequences (10000094 bp)...
+[M::mem_process_seqs] Processed 67448 reads in 1.928 CPU sec, 1.775 real sec
+[M::process] read 67100 sequences (10000113 bp)...
+[M::mem_process_seqs] Processed 67230 reads in 2.180 CPU sec, 1.940 real sec
+[M::process] read 54808 sequences (8118313 bp)...
+[M::mem_process_seqs] Processed 67100 reads in 2.029 CPU sec, 1.856 real sec
+[M::mem_process_seqs] Processed 54808 reads in 1.704 CPU sec, 1.633 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem sequence.fasta SRR1705858.fastq.gz
+[main] Real time: 7.725 sec; CPU: 8.044 sec
+[mpileup] 1 samples in 1 input files
+[mpileup] Max depth set to maximum value (2147483647)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.95
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705858.mpileup
+1665 bases in pileup file
+0 variant positions (0 SNP, 0 indel)
+0 were failed by the strand-filter
+0 variant positions reported (0 SNP, 0 indel)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.001
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705858.mpileup
+1665 bases in pileup file
+58 variant positions (58 SNP, 0 indel)
+1 were failed by the strand-filter
+57 variant positions reported (57 SNP, 0 indel)
+SRR1705859
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 67476 sequences (10000274 bp)...
+[M::process] read 67236 sequences (10000039 bp)...
+[M::mem_process_seqs] Processed 67476 reads in 1.873 CPU sec, 1.689 real sec
+[M::process] read 67216 sequences (10000283 bp)...
+[M::mem_process_seqs] Processed 67236 reads in 2.045 CPU sec, 1.847 real sec
+[M::process] read 31399 sequences (4635971 bp)...
+[M::mem_process_seqs] Processed 67216 reads in 2.056 CPU sec, 1.922 real sec
+[M::mem_process_seqs] Processed 31399 reads in 1.203 CPU sec, 1.126 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem sequence.fasta SRR1705859.fastq.gz
+[main] Real time: 6.955 sec; CPU: 7.352 sec
+[mpileup] 1 samples in 1 input files
+[mpileup] Max depth set to maximum value (2147483647)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.95
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705859.mpileup
+1665 bases in pileup file
+0 variant positions (0 SNP, 0 indel)
+0 were failed by the strand-filter
+0 variant positions reported (0 SNP, 0 indel)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.001
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705859.mpileup
+1665 bases in pileup file
+54 variant positions (54 SNP, 0 indel)
+2 were failed by the strand-filter
+52 variant positions reported (52 SNP, 0 indel)
+SRR1705860
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 67356 sequences (10000126 bp)...
+[M::process] read 67208 sequences (10000122 bp)...
+[M::mem_process_seqs] Processed 67356 reads in 1.787 CPU sec, 1.645 real sec
+[M::process] read 67010 sequences (10000072 bp)...
+[M::mem_process_seqs] Processed 67208 reads in 2.153 CPU sec, 1.958 real sec
+[M::process] read 48390 sequences (7170166 bp)...
+[M::mem_process_seqs] Processed 67010 reads in 2.094 CPU sec, 1.932 real sec
+[M::mem_process_seqs] Processed 48390 reads in 1.572 CPU sec, 1.501 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem sequence.fasta SRR1705860.fastq.gz
+[main] Real time: 7.516 sec; CPU: 7.782 sec
+[mpileup] 1 samples in 1 input files
+[mpileup] Max depth set to maximum value (2147483647)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.95
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705860.mpileup
+1665 bases in pileup file
+0 variant positions (0 SNP, 0 indel)
+0 were failed by the strand-filter
+0 variant positions reported (0 SNP, 0 indel)
+Only SNPs will be reported
+Warning: No p-value threshold provided, so p-values will not be calculated
+Min coverage:	8
+Min reads2:	2
+Min var freq:	0.001
+Min avg qual:	15
+P-value thresh:	0.01
+Reading input from SRR1705860.mpileup
+1665 bases in pileup file
+61 variant positions (61 SNP, 0 indel)
+0 were failed by the strand-filter
+61 variant positions reported (61 SNP, 0 indel)
+
+End on 2020-11-18T21:05:23+03:00
